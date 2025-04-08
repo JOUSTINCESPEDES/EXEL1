@@ -1,0 +1,832 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Costume Items</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <div>
+      <img  id="logos" class="logos"  src="logo.png" alt="">
+    <h1 id="Nombre" class="Nombre">Costume Items</h1>
+
+    </div>
+    <nav>
+      <a href="#categorias">Categorías</a>
+      <a href="#carrito">Carrito</a>
+    </nav>
+  </header>
+
+  <div id="alerta" class="alerta">¡Producto añadido al carrito!</div>
+
+  <section id="categorias" class="categorias">
+    <h2>Categorías</h2>
+    <div class="grid-categorias">
+      <button onclick="mostrarCategoria('pelucas')">Pelucas</button>
+      <button onclick="mostrarCategoria('mascaras')">Máscaras</button>
+      <button onclick="mostrarCategoria('sombreros')">Sombreros</button>
+      <button onclick="mostrarCategoria('faldas')">faldas</button>
+      <button onclick="mostrarCategoria('armas')">ARMAS</button>
+      <button onclick="mostrarCategoria('trajes completos')">trajes completos</button>
+      <button onclick="mostrarCategoria('gafas')">gafas</button>
+      <button onclick="mostrarCategoria('diademas')">diademas</button>
+    </div>
+  </section>
+
+<!-- pelucas -->
+
+  <section id="productos" class="productos-seccion">
+    <div id="pelucas" class="categoria-productos oculto">
+      <h2>Pelucas</h2>
+      <div class="productos">
+        <div class="producto">
+          <img src="https://m.media-amazon.com/images/I/71XGhxS5XML.jpg" alt="Peluca 1" />
+          <h3>Peluca roja</h3>
+          <p>Peluca larga con ondas naturales.</p>
+          <p>$30.000</p>
+          <button onclick="agregarAlCarrito('Peluca roja', 30000)">Añadir</button>
+        </div>
+
+        <div class="producto">
+          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTZeL0BhokXrOMVeq8QHf0pFZziF_-qEA3NhQ&s" alt="Peluca 2" />
+          <h3>Peluca naranja</h3>
+          <p>Peluca larga con ondas naturales</p>
+          <p>$35.000</p>
+          <button onclick="agregarAlCarrito('Peluca naranja', 35000)">Añadir</button>
+        </div>
+
+        <div class="producto">
+            <img src="https://m.media-amazon.com/images/I/71U3m44vKnL.jpg" alt="Peluca 2" />
+            <h3>Peluca vino tinto</h3>
+            <p>Peluca larga con ondas naturales</p>
+            <p>$35.000</p>
+            <button onclick="agregarAlCarrito('Peluca vino tinto', 35000)">Añadir</button>
+          </div>
+
+          <div class="producto">
+            <img src="https://img.ankorstore.com/products/images/4518237-47e018bb416bec.jpg?auto=compress&fm=pjpg&w=500&dpr=1&fit=min&force_format=webp" alt="Peluca 2" />
+            <h3>Peluca cafe </h3>
+            <p>Peluca larga con ondas naturales</p>
+            <p>$35.000</p>
+            <button onclick="agregarAlCarrito('Peluca cafe', 35000)">Añadir</button>
+          </div>
+
+        <div class="producto">
+          <img src="https://m.media-amazon.com/images/I/71dAXuFuTwL.jpg" alt="Peluca 3" />
+          <h3>Peluca Azul</h3>
+          <p>Peluca larga lisa.</p>
+          <p>$25.000</p>
+          <button onclick="agregarAlCarrito('Peluca azul', 25000)">Añadir</button>
+        </div>
+
+        
+        <div class="producto">
+            <img src="https://m.media-amazon.com/images/I/71fTW2OVUML.jpg" alt="Peluca 3" />
+            <h3>Peluca violeta</h3>
+            <p>Peluca larga con ondas naturales.</p>
+            <p>$25.000</p>
+            <button onclick="agregarAlCarrito('Peluca violeta', 25000)">Añadir</button>
+        </div>
+
+          
+        <div class="producto">
+            <img src="https://down-co.img.susercontent.com/file/sg-11134201-22120-xonbmy9uhglva8" alt="Peluca 3" />
+            <h3>Peluca blanca</h3>
+            <p>Peluca larga lisa.</p>
+            <p>$25.000</p>
+            <button onclick="agregarAlCarrito('Peluca blanca', 25000)">Añadir</button>
+        </div>
+        
+        <div class="producto">
+            <img src="https://m.media-amazon.com/images/I/71-7UaAxULL._AC_UF1000,1000_QL80_.jpg" alt="Peluca 3" />
+            <h3>Peluca amarilla</h3>
+            <p>Peluca larga con ondas naturales.</p>
+            <p>$25.000</p>
+            <button onclick="agregarAlCarrito('Peluca amarilla', 25000)">Añadir</button>
+        </div>
+
+
+        <div class="producto">
+            <img src="https://www.dhresource.com/webp/m/0x0/f2/albu/g20/M00/F0/95/rBVaqWGJ7v6AVqP6AANcyUFLAvI893.jpg" alt="Peluca 3" />
+            <h3>Peluca verde </h3>
+            <p>Peluca larga con ondas naturales.</p>
+            <p>$25.000</p>
+            <button onclick="agregarAlCarrito('Peluca verde', 25000)">Añadir</button>
+        </div>
+
+        <div class="producto">
+            <img src="https://acdn-us.mitiendanube.com/stores/001/595/531/products/img_20220911_131004-1a4810b50b42f5207d16630797125249-1024-1024.jpg" alt="Peluca 3" />
+            <h3>Peluca rosa</h3>
+            <p>Peluca larga lisa.</p>
+            <p>$25.000</p>
+            <button onclick="agregarAlCarrito('Peluca rosa', 25000)">Añadir</button>
+        </div>
+      </div>
+    </div>
+ 
+<!-- //*mascaras*// -->
+
+    <div id="mascaras" class="categoria-productos oculto">
+      <h2>Máscaras</h2>
+      <div class="productos">
+        <div class="producto">
+          <img src="https://m.media-amazon.com/images/I/51+BaGDA+gL._AC_UY1000_.jpg" alt="Máscara 1" />
+          <h3>Máscara de Anonimus</h3>
+          <p>mascara blanca con bigote.</p>
+          <p>$20.000</p>
+          <button onclick="agregarAlCarrito('Máscara de Anonimus', 20000)">Añadir</button>
+        </div>
+
+
+
+        <div class="producto">
+          <img src="https://m.media-amazon.com/images/I/81gltAC5KxL._AC_UY350_.jpg" alt="Máscara 2" />
+          <h3>Máscara de la purga </h3>
+          <p>máscara con los ojos en x y sonrisa cosida (luces led).</p>
+          <p>$28.000</p>
+          <button onclick="agregarAlCarrito('Máscara de la purga', 28000)">Añadir</button>
+        </div>
+
+
+        <div class="producto">
+          <img src="https://i.ebayimg.com/thumbs/images/g/C5kAAOSweOhm-K4x/s-l1200.jpg" alt="Máscara 3" />
+          <h3>Máscara de ghostface</h3>
+          <p>Clásica máscara blanca estilo fantasma(con manchas de sangre).</p>
+          <p>$22.000</p>
+          <button onclick="agregarAlCarrito('Máscara de ghostface', 22000)">Añadir</button>
+        </div>
+
+        
+        <div class="producto">
+            <img src="https://m.media-amazon.com/images/I/71HL29L64pL._AC_SX679_.jpg" alt="Máscara 2" />
+            <h3>Máscara de saw </h3>
+            <p>máscara del personaje principal.</p>
+            <p>$28.000</p>
+            <button onclick="agregarAlCarrito('Máscara de saw ', 28000)">Añadir</button>
+        </div>
+
+          
+        <div class="producto">
+            <img src="https://http2.mlstatic.com/D_NQ_NP_765151-MLU74307516000_022024-O.webp" alt="Máscara 2" />
+            <h3>Máscara del juego del calamar</h3>
+            <p>máscara negra del organisador de los juegos.</p>
+            <p>$28.000</p>
+            <button onclick="agregarAlCarrito('Máscara del juego del calamar', 28000)">Añadir</button>
+          </div>
+
+          
+        <div class="producto">
+            <img src="https://http2.mlstatic.com/D_NQ_NP_931874-MLM32422584911_102019-O.webp" alt="Máscara 2" />
+            <h3>Máscara de la casa de papel </h3>
+            <p>mascara de la serie.</p>
+            <p>$28.000</p>
+            <button onclick="agregarAlCarrito('Máscara de la casa de papel', 28000)">Añadir</button>
+          </div>
+
+          
+        <div class="producto">
+            <img src="https://i.ebayimg.com/thumbs/images/g/BqYAAOSw8YNm~ERs/s-l1200.jpg" alt="Máscara 2" />
+            <h3>Máscara de hulk </h3>
+            <p>mascara plastica de el personaje</p>
+            <p>$28.000</p>
+            <button onclick="agregarAlCarrito('Máscara de hulk', 28000)">Añadir</button>
+          </div>
+
+          
+        <div class="producto">
+            <img src="https://m.media-amazon.com/images/I/71J2PYaZRnL._AC_UY1000_.jpg" alt="Máscara 2" />
+            <h3>Máscara de yeison</h3>
+            <p>mascaa del asesino.</p>
+            <p>$28.000</p>
+            <button onclick="agregarAlCarrito('Máscara de yeison', 28000)">Añadir</button>
+          </div>
+
+          
+        <div class="producto">
+            <img src="https://www.disfracestuyyo.com/images/productos/thumbnails/Mscara-La-Purga-Kiss-Me-para-adulto-1_thumb_262x262.jpg" alt="Máscara 2" />
+            <h3>Máscara femenina de la purga </h3>
+            <p>mascara plastica con frase de kiss me.</p>
+            <p>$28.000</p>
+            <button onclick="agregarAlCarrito('Máscara femenina de la purga', 28000)">Añadir</button>
+          </div>
+
+          
+        <div class="producto">
+            <img src="https://plasticosyorka.cl/img/p/4/5/7/4/4574-home_default.jpg" alt="Máscara 2" />
+            <h3>Máscara de pallaso mal</h3>
+            <p>mascara plastica de personaje de pelicula</p>
+            <p>$28.000</p>
+            <button onclick="agregarAlCarrito('Máscara de pallaso mal', 28000)">Añadir</button>
+          </div>
+      </div>
+    </div>
+<!-- //*trajes completos//* -->
+
+<div id="trajes completos" class="categoria-productos oculto">
+  <h2>trajes completos</h2>
+  <div class="productos">
+    <div class="producto">
+      <img src="https://i.ebayimg.com/thumbs/images/g/-jQAAOSwy2BmepWE/s-l1200.jpg" alt="Máscara 1" />
+      <h3>traje de flash</h3>
+      <p>traje del personaje mas rapido de la tierra </p>
+      <p>$20.000</p>
+      <button onclick="agregarAlCarrito('traje de flash', 20000)">Añadir</button>
+    </div>
+
+
+
+    <div class="producto">
+      <img src="https://i.ebayimg.com/thumbs/images/g/EVwAAOSwGsRmzbOF/s-l1200.jpg" alt="Máscara 2" />
+      <h3>traje de deapool</h3>
+      <p>traje de personaje iconico de peliculas.</p>
+      <p>$28.000</p>
+      <button onclick="agregarAlCarrito('traje de deapool', 28000)">Añadir</button>
+    </div>
+
+
+    <div class="producto">
+      <img src="https://i.pinimg.com/474x/f5/da/d7/f5dad768940503eb3954d7a83c877955.jpg" alt="Máscara 3" />
+      <h3>traje de nesuko</h3>
+      <p>traje de personaje de la serie.</p>
+      <p>$22.000</p>
+      <button onclick="agregarAlCarrito('traje de nesuko', 22000)">Añadir</button>
+    </div>
+
+    
+    <div class="producto">
+        <img src="https://m.media-amazon.com/images/I/71gFCzDURUL.jpg" alt="Máscara 2" />
+        <h3> traje completo casa de papel</h3>
+        <p>traje de los ladrones de la serie</p>
+        <p>$28.000</p>
+        <button onclick="agregarAlCarrito('traje completo casa de papel', 28000)">Añadir</button>
+    </div>
+
+      
+    <div class="producto">
+        <img src="https://i.ebayimg.com/thumbs/images/g/M2QAAOSw4l5m4qwu/s-l1200.jpg" alt="Máscara 2" />
+        <h3>traje de vegeta</h3>
+        <p>traje del pricipe sayayin.</p>
+        <p>$28.000</p>
+        <button onclick="agregarAlCarrito('traje de vegeta', 28000)">Añadir</button>
+      </div>
+
+      
+    <div class="producto">
+        <img src="https://hips.hearstapps.com/hmg-prod/images/disfraz-juego-calamar-1664867150.jpg" alt="Máscara 2" />
+        <h3>traje del juego del calamar </h3>
+        <p>traje de los guardias de los juegos </p>
+        <p>$28.000</p>
+        <button onclick="agregarAlCarrito('traje del juego del calamar', 28000)">Añadir</button>
+      </div>
+
+      
+    <div class="producto">
+        <img src="https://m.media-amazon.com/images/I/41x7dHc1EFL._AC_.jpg" alt="Máscara 2" />
+        <h3>traje de batman</h3>
+        <p>traje de super heroe de la noche</p>
+        <p>$28.000</p>
+        <button onclick="agregarAlCarrito('traje de batman', 28000)">Añadir</button>
+      </div>
+
+      
+    <div class="producto">
+        <img src="https://http2.mlstatic.com/D_NQ_NP_810424-MLV79991287061_102024-O.webp" alt="Máscara 2" />
+        <h3>traje de spiderman</h3>
+        <p>traje de super heroe de pelicula</p>
+        <p>$28.000</p>
+        <button onclick="agregarAlCarrito('traje de spiderman', 28000)">Añadir</button>
+      </div>
+
+      
+    <div class="producto">
+        <img src="https://m.media-amazon.com/images/I/61tv2jR7sAL._AC_SL1134_.jpg" alt="Máscara 2" />
+        <h3>traje de miku</h3>
+        <p>traje de peronaje animado</p>
+        <p>$28.000</p>
+        <button onclick="agregarAlCarrito('traje de miku', 28000)">Añadir</button>
+      </div>
+
+      
+    <div class="producto">
+        <img src="https://static1.disfrazzes.com/productos/miniaturas3/disfraz-de-superheroe-marihuana-para-hombre-98383.jpg" alt="Máscara 2" />
+        <h3>traje del superheroe marihuana</h3>
+        <p>traje del heroe de todos los que les gusta la mota.</p>
+        <p>$42.000</p>
+        <button onclick="agregarAlCarrito('traje del superheroe marihuana', 28000)">Añadir</button>
+      </div>
+  </div>
+</div>
+<!-- /*armas*/ -->
+
+<div id="armas" class="categoria-productos oculto">
+    <h2>Máscaras</h2>
+    <div class="productos">
+      <div class="producto">
+        <img src="https://http2.mlstatic.com/D_NQ_NP_636446-MCO79767672448_102024-O.webp" alt="Máscara 1" />
+        <h3>pistola de jugete</h3>
+        <p>arma de balines </p>
+        <p>$20.000</p>
+        <button onclick="agregarAlCarrito('pistola de jugete', 20000)">Añadir</button>
+      </div>
+
+
+
+      <div class="producto">
+        <img src="https://m.media-amazon.com/images/I/61RNuc-7KJL._AC_SL1500_.jpg" alt="Máscara 2" />
+        <h3>Espada de minecraft</h3>
+        <p> elemento iconico del video juego</p>
+        <p>$28.000</p>
+        <button onclick="agregarAlCarrito('Espada de minecraft', 28000)">Añadir</button>
+      </div>
+
+
+      <div class="producto">
+        <img src="https://i.ebayimg.com/thumbs/images/g/oy0AAOSwHMNkbiGb/s-l1200.jpg" alt="Máscara 3" />
+        <h3>Escudo de capitan america</h3>
+        <p>escudo de uno de los avengers.</p>
+        <p>$22.000</p>
+        <button onclick="agregarAlCarrito('Escudo de capitan america', 22000)">Añadir</button>
+      </div>
+
+      
+      <div class="producto">
+          <img src="https://m.media-amazon.com/images/I/6104LthJZ3L._AC_UF1000,1000_QL80_.jpg" alt="Máscara 2" />
+          <h3>martillo de thor</h3>
+          <p>martillo de uno de los avengers</p>
+          <p>$28.000</p>
+          <button onclick="agregarAlCarrito('martillo de thor', 28000)">Añadir</button>
+      </div>
+
+        
+      <div class="producto">
+          <img src="https://http2.mlstatic.com/D_NQ_NP_861754-MCO71969802942_092023-O.webp" alt="Máscara 2" />
+          <h3>bate de baseboll</h3>
+          <p>bate con puas en la parte principal.</p>
+          <p>$28.000</p>
+          <button onclick="agregarAlCarrito('bate de baseboll', 28000)">Añadir</button>
+        </div>
+
+        
+      <div class="producto">
+          <img src="https://http2.mlstatic.com/D_Q_NP_2X_780760-MCO78302347531_082024-T.webp" alt="Máscara 2" />
+          <h3>shuriken </h3>
+          <p>accesorio metalico ninja </p>
+          <p>$28.000</p>
+          <button onclick="agregarAlCarrito('shuriken', 28000)">Añadir</button>
+        </div>
+
+        
+      <div class="producto">
+          <img src="https://tr.rbxcdn.com/180DAY-2ad0a3ba2f51a946123ed6d2502f5b8c/420/420/Hat/Webp/noFilter" alt="Máscara 2" />
+          <h3>orquillas de la muerte</h3>
+          <p>arma de la muerte</p>
+          <p>$28.000</p>
+          <button onclick="agregarAlCarrito('orquillas de la muerte', 28000)">Añadir</button>
+        </div>
+
+        
+      <div class="producto">
+          <img src="https://m.media-amazon.com/images/I/71xGPY8bFcL._AC_UF894,1000_QL80_.jpg" alt="Máscara 2" />
+          <h3>espada de energuia</h3>
+          <p>espada iconica de el juego halo.</p>
+          <p>$28.000</p>
+          <button onclick="agregarAlCarrito('espada de energuia', 28000)">Añadir</button>
+        </div>
+
+        
+      <div class="producto">
+          <img src="https://http2.mlstatic.com/D_NQ_NP_788542-MLA79802009821_102024-O.webp" alt="Máscara 2" />
+          <h3>Motocierra </h3>
+          <p>Motocierra de jugete de plastico .</p>
+          <p>$28.000</p>
+          <button onclick="agregarAlCarrito('Motocierra', 28000)">Añadir</button>
+        </div>
+
+        
+      <div class="producto">
+          <img src="https://static1.disfrazzes.com/productos/mini-hacha-plateada-de-juguete-de-40-cm-210609.jpg" alt="Máscara 2" />
+          <h3>hacha</h3>
+          <p>hacha plateada de juguete.</p>
+          <p>$28.000</p>
+          <button onclick="agregarAlCarrito('hacha', 28000)">Añadir</button>
+        </div>
+    </div>
+  </div>
+<!-- /*sombreros*/ -->
+
+    <div id="sombreros" class="categoria-productos oculto">
+      <h2>Sombreros</h2>
+      <div class="productos">
+        <div class="producto">
+          <img src="https://media.falabella.com/falabellaCO/133927598_01/w=800,h=800,fit=pad" alt="Sombrero 1" />
+          <h3>Sombrero Vaquero(mujer)</h3>
+          <p>sombrero rosado con estrella de policia en frente</p>
+          <p>$18.000</p>
+          <button onclick="agregarAlCarrito('Sombrero Vaquero(mujer)', 18000)">Añadir</button>
+        </div>
+
+        <div class="producto">
+          <img src="https://i5.walmartimages.com.mx/gr/images/product-images/img_large/00489394899350L.jpg?odnHeight=612&odnWidth=612&odnBg=FFFFFF" alt="Sombrero 2" />
+          <h3>sombrero de bruja</h3>
+          <p>Sombrero negro en punta.</p>
+          <p>$25.000</p>
+          <button onclick="agregarAlCarrito('sombrero de bruja', 25000)">Añadir</button>
+        </div>
+
+        <div class="producto">
+          <img src="https://m.media-amazon.com/images/I/61KKfsxx-0L._AC_SL1500_.jpg" alt="Sombrero 3" />
+          <h3>sombrero de vaquero de hombre</h3>
+          <p>Sombrero cafe con evilla de toro</p>
+          <p>$27.000</p>
+          <button onclick="agregarAlCarrito('sombrero de vaquero de hombre', 27000)">Añadir</button>
+        </div>
+
+        <div class="producto">
+            <img src="https://http2.mlstatic.com/D_NQ_NP_2X_723058-MCO73665846628_012024-T.webp" alt="Sombrero 3" />
+            <h3>Sombrero de san patricio</h3>
+            <p>Sombrero verde con trevil y sinturon negro con dorado</p>
+            <p>$27.000</p>
+            <button onclick="agregarAlCarrito('Sombrero de san patricio', 27000)">Añadir</button>
+          </div>
+
+          <div class="producto">
+            <img src=" https://i.etsystatic.com/8648718/r/il/2aae07/933476097/il_570xN.933476097_4lwo.jpg" alt="Sombrero 3" />
+            <h3>Sombrero del sombrerero</h3>
+            <p>Sombrero de pesonaje de la pelicula alicia en el pais de las maravillas.</p>
+            <p>$27.000</p>
+            <button onclick="agregarAlCarrito('Sombrero del sombrerero', 27000)">Añadir</button>
+          </div>
+
+          <div class="producto">
+            <img src="https://www.disfracesgamar.com/cdn/shop/products/sombrero-borsalino-blancoJPG._800x.jpg?v=1646419068" alt="Sombrero 3" />
+            <h3>Sombrero de paraco</h3>
+            <p>Sombrero de persona con dinero en colombia.</p>
+            <p>$27.000</p>
+            <button onclick="agregarAlCarrito('Sombrero de paraco', 27000)">Añadir</button>
+          </div>
+
+          <div class="producto">
+            <img src="https://img.fruugo.com/product/2/10/1629741102_0340_0340.jpg" alt="Sombrero 3" />
+            <h3>Sombrero de piloto</h3>
+            <p>Sombrero de capitan de aviones color negro</p>
+            <p>$27.000</p>
+            <button onclick="agregarAlCarrito('Sombrero de piloto', 27000)">Añadir</button>
+          </div>
+
+          <div class="producto">
+            <img src="https://cdn.grupoelcorteingles.es/SGFM/dctm/MEDIA03/202310/23/00108336262756____1__640x640.jpg" alt="Sombrero 3" />
+            <h3>Sombrero pirata</h3>
+            <p>Sombrero de color rojo con clabera en frente.</p>
+            <p>$27.000</p>
+            <button onclick="agregarAlCarrito('Sombrero pirata', 27000)">Añadir</button>
+          </div>
+
+          <div class="producto">
+            <img src="https://static.kiabi.es/images/gorra-de-capitan-marino-blanco-bip94_1_hd1.jpg?width=500" alt="Sombrero 3" />
+            <h3>Sombrero de capitan</h3>
+            <p>Sombrero de capitan de barcos color blanco.</p>
+            <p>$27.000</p>
+            <button onclick="agregarAlCarrito('Sombrero de capitan', 27000)">Añadir</button>
+          </div>
+
+          <div class="producto">
+            <img src="https://http2.mlstatic.com/D_NQ_NP_2X_712355-MLM31988561193_082019-T.webp" alt="Sombrero 3" />
+            <h3>Sombrero de mario bros</h3>
+            <p>Sombrero de personaje de videojuegos</p>
+            <p>$27.000</p>
+            <button onclick="agregarAlCarrito('Sombrero de mario bros', 27000)">Añadir</button>
+          </div>
+      </div>
+    </div>
+  </section>
+
+<!--   /*faldas*/ -->
+
+  <div id="faldas" class="categoria-productos oculto">
+    <h2>faldas</h2>
+    <div class="productos">
+      <div class="producto">
+        <img src="https://i.pinimg.com/564x/a0/78/37/a07837bd133cd0c368db82085403da5c.jpg" alt="Sombrero 1" />
+        <h3>falda negra</h3>
+        <p>Sombrero clásico del oeste marrón.</p>
+        <p>$18.000</p>
+        <button onclick="agregarAlCarrito('falda negra', 18000)">Añadir</button>
+      </div>
+
+
+      <div class="producto">
+        <img src="https://m.media-amazon.com/images/I/61bj7bHfXLL._AC_SY350_QL65_.jpg" alt="Sombrero 2" />
+        <h3>falda verde</h3>
+        <p>Sombrero negro con punta doblada.</p>
+        <p>$25.000</p>
+        <button onclick="agregarAlCarrito('falda verde', 25000)">Añadir</button>
+      </div>
+
+
+
+      <div class="producto">
+        <img src="https://i5.walmartimages.com/asr/a086c463-e4a0-480f-8a65-0ad2ab1585ea.9e1384be0b7da81fb21618f6079a2725.jpeg?odnHeight=612&odnWidth=612&odnBg=FFFFFF" alt="Sombrero 3" />
+        <h3>falda roja</h3>
+        <p>Sombrero de mago con estrellas.</p>
+        <p>$27.000</p>
+        <button onclick="agregarAlCarrito('falda roja', 27000)">Añadir</button>
+      </div>
+
+      
+      <div class="producto">
+        <img src="https://importadoraelhueco.com/wp-content/uploads/2024/07/FALDA-TUTU-INFANTIL-BRILLANTE-30CM-MN-2996-1200x1200.jpg" alt="Sombrero 2" />
+        <h3>falda azul</h3>
+        <p>Sombrero negro con punta doblada.</p>
+        <p>$25.000</p>
+        <button onclick="agregarAlCarrito('falda azul', 25000)">Añadir</button>
+      </div>
+
+      
+      <div class="producto">
+        <img src="https://m.media-amazon.com/images/I/618R3pgYIxL.jpg" alt="Sombrero 2" />
+        <h3>falda arcoiris</h3>
+        <p>Sombrero negro con punta doblada.</p>
+        <p>$25.000</p>
+        <button onclick="agregarAlCarrito('falda arcoiris', 25000)">Añadir</button>
+      </div>
+
+      
+      <div class="producto">
+        <img src="https://reinadelafiesta.com/1931-large_default/falda-tutu-amarillo-purpurina-30-cm.jpg" alt="Sombrero 2" />
+        <h3>falda amarilla</h3>
+        <p>Sombrero negro con punta doblada.</p>
+        <p>$25.000</p>
+        <button onclick="agregarAlCarrito('falda amarilla', 25000)">Añadir</button>
+      </div>
+
+      
+      <div class="producto">
+        <img src="https://i5.walmartimages.com/asr/3f853c95-90ae-4df7-993a-47ed81eb6302.ff577c3f8aba68bb45d052ea2517c38f.jpeg?odnHeight=612&odnWidth=612&odnBg=FFFFFF" alt="Sombrero 2" />
+        <h3> falda blanca</h3>
+        <p>Sombrero negro con punta doblada.</p>
+        <p>$25.000</p>
+        <button onclick="agregarAlCarrito('falda blanca', 25000)">Añadir</button>
+      </div>
+
+      
+      <div class="producto">
+        <img src="https://i5.walmartimages.com/asr/32d91bc9-d9cc-41f7-9ecc-2eddd8d54c6f.050a6a8e707af33ce1284cade0e6f6d0.jpeg?odnHeight=612&odnWidth=612&odnBg=FFFFFF" alt="Sombrero 2" />
+        <h3>falda rosada</h3>
+        <p>Sombrero negro con punta doblada.</p>
+        <p>$25.000</p>
+        <button onclick="agregarAlCarrito('falda rosada', 25000)">Añadir</button>
+      </div>
+
+      
+      <div class="producto">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcReX1_dDnjJLnEYvnpopvbcMyz6-zevYLDCGykpcEE42_riaOa88MFn5iiOFMOHDNkvjy4&usqp=CAU" alt="Sombrero 2" />
+        <h3>falda negra con rojo </h3>
+        <p>Sombrero negro con punta doblada.</p>
+        <p>$25.000</p>
+        <button onclick="agregarAlCarrito('falda negra con rojo', 25000)">Añadir</button>
+      </div>
+
+      
+      <div class="producto">
+        <img src="https://www.disfrazjaiak.com/c/481-category_default/comprar-faldas-y-pantalones-baratos.jpg" alt="Sombrero 2" />
+        <h3>falda blanca con puntos negros</h3>
+        <p>Sombrero negro con punta doblada.</p>
+        <p>$25.000</p>
+        <button onclick="agregarAlCarrito('falda blanca con puntos negros', 25000)">Añadir</button>
+      </div>
+    </div>
+  </div>
+<!-- //*diademas//* -->
+
+
+<div id="diademas" class="categoria-productos oculto">
+  <h2>diademas</h2>
+  <div class="productos">
+    <div class="producto">
+      <img src="https://http2.mlstatic.com/D_NQ_NP_872823-MCO31742258851_082019-O.webp" alt="Máscara 1" />
+      <h3>diadema de mini mause</h3>
+      <p>arma de balines </p>
+      <p>$20.000</p>
+      <button onclick="agregarAlCarrito('diadema de mini mause', 20000)">Añadir</button>
+    </div>
+
+
+
+    <div class="producto">
+      <img src="https://m.media-amazon.com/images/I/71ZjqD6FaFL._AC_UY1000_.jpg" alt="Máscara 2" />
+      <h3>diadema de gata</h3>
+      <p> elemento iconico del video juego</p>
+      <p>$28.000</p>
+      <button onclick="agregarAlCarrito('diadema de gata', 28000)">Añadir</button>
+    </div>
+
+
+    <div class="producto">
+      <img src="https://i5.walmartimages.com/asr/bceddf1d-09e0-4616-9801-6aad4cc4f2ea.ce8f05ec5f69efecccb30ec08f088d42.jpeg?odnHeight=612&odnWidth=612&odnBg=FFFFFF" alt="Máscara 3" />
+      <h3>diadema de conejita</h3>
+      <p>escudo de uno de los avengers.</p>
+      <p>$22.000</p>
+      <button onclick="agregarAlCarrito('diadema de conejita', 22000)">Añadir</button>
+    </div>
+
+    
+    <div class="producto">
+        <img src="https://i5.walmartimages.com/asr/7065b68d-c66b-41d7-841d-8121c2279906.93fadf892660f27edaf6e413412f0e27.jpeg?odnHeight=612&odnWidth=612&odnBg=FFFFFF" alt="Máscara 2" />
+        <h3>diadema de con murcielagos</h3>
+        <p></p>
+        <p>$28.000</p>
+        <button onclick="agregarAlCarrito('diadema de con murcielagos', 28000)">Añadir</button>
+    </div>
+
+      
+    <div class="producto">
+        <img src="https://m.media-amazon.com/images/I/71YB35lZDML._AC_UY1000_.jpg" alt="Máscara 2" />
+        <h3>diadema de diablita</h3>
+        <p>bate con puas en la parte principal.</p>
+        <p>$28.000</p>
+        <button onclick="agregarAlCarrito('diadema de diablita', 28000)">Añadir</button>
+      </div>
+
+      
+    <div class="producto">
+        <img src="https://m.media-amazon.com/images/I/31dQBQDAYVL._AC_.jpg" alt="Máscara 2" />
+        <h3> diadema de angel</h3>
+        <p>accesorio metalico ninja </p>
+        <p>$28.000</p>
+        <button onclick="agregarAlCarrito('diadema de angel', 28000)">Añadir</button>
+      </div>
+
+      
+    <div class="producto">
+        <img src="https://m.media-amazon.com/images/I/61mLXZ6E1vL._AC_UL1500_.jpg" alt="Máscara 2" />
+        <h3>dadema de sonic</h3>
+        <p>cresta de color azul</p>
+        <p>$28.000</p>
+        <button onclick="agregarAlCarrito('dadema de sonic', 28000)">Añadir</button>
+      </div>
+
+      
+    <div class="producto">
+        <img src="https://importadoraelhueco.com/wp-content/uploads/2024/08/DIADEMA-CUERNOS-MALEFICA-NEGROS-SIN-CODIGO--1200x1200.jpg" alt="Máscara 2" />
+        <h3></h3>
+        <p>diadema de malefica.</p>
+        <p>$28.000</p>
+        <button onclick="agregarAlCarrito('diadema de malefica', 28000)">Añadir</button>
+      </div>
+
+      
+    <div class="producto">
+        <img src="https://http2.mlstatic.com/D_NQ_NP_2X_867471-MCO79916953868_102024-T.webp" alt="Máscara 2" />
+        <h3>diadema de rosas</h3>
+        <p>Motocierra de jugete de plastico .</p>
+        <p>$28.000</p>
+        <button onclick="agregarAlCarrito('diadema de rosas', 28000)">Añadir</button>
+      </div>
+
+      
+    <div class="producto">
+        <img src="https://p.turbosquid.com/ts-thumb/YZ/BKBtm2/tB28lJbi/scene.102578_vig/jpg/1568722044/600x600/fit_q87/2fbc10304225a1c003dfed955da623e968ecce93/scene.102578_vig.jpg" alt="Máscara 2" />
+        <h3>diadema con cuchillo</h3>
+        <p>cuchillo partido a la mitad.</p>
+        <p>$28.000</p>
+        <button onclick="agregarAlCarrito('diadema con cuchillo', 28000)">Añadir</button>
+      </div>
+  </div>
+</div>
+
+<!-- /*gafas/* -->
+
+
+  <div id="gafas" class="categoria-productos oculto">
+      <h2>gafas</h2>
+      <div class="productos">
+        <div class="producto">
+          <img src="https://i5.walmartimages.com/asr/e4e5a65a-102f-45fe-ac66-a85e78b81bad.54d42d016d617a707476a7f0ff0ff621.jpeg?odnHeight=612&odnWidth=612&odnBg=FFFFFF" alt="Máscara 1" />
+          <h3>gafas verdes</h3>
+          <p>mascara blanca con bigote.</p>
+          <p>$20.000</p>
+          <button onclick="agregarAlCarrito('gafas verdes', 20000)">Añadir</button>
+        </div>
+
+
+        <div class="producto">
+          <img src="https://http2.mlstatic.com/D_NQ_NP_670667-MCO78827015978_092024-O.webp" alt="Máscara 2" />
+          <h3>Gafas Steampunk Vintage </h3>
+          <p>máscara con los ojos en x y sonrisa cosida (luces led).</p>
+          <p>$28.000</p>
+          <button onclick="agregarAlCarrito('Gafas Steampunk Vintage', 28000)">Añadir</button>
+        </div>
+
+
+        <div class="producto">
+          <img src="https://i5.walmartimages.com/asr/186e7339-f682-4beb-9161-d620cf36e8a8.4002877e28e843eb3f070b3851e1942b.jpeg?odnHeight=612&odnWidth=612&odnBg=FFFFFF" alt="Máscara 3" />
+          <h3>gafas con naris y bigote</h3>
+          <p>Clásica máscara blanca estilo fantasma(con manchas de sangre).</p>
+          <p>$22.000</p>
+          <button onclick="agregarAlCarrito('gafas con naris y bigote', 22000)">Añadir</button>
+        </div>
+
+        
+        <div class="producto">
+            <img src="https://static1.disfrazzes.com/productos/miniaturas3/gafas-de-beer-king-oscuras-236460.jpg" alt="Máscara 2" />
+            <h3>cerbesas de los simsom </h3>
+            <p>máscara del personaje principal.</p>
+            <p>$28.000</p>
+            <button onclick="agregarAlCarrito('cerbesas de los simsom', 28000)">Añadir</button>
+        </div>
+
+          
+        <div class="producto">
+            <img src="https://www.disfracesantifaz.com/10425-home_default/gafas-con-manos-de-esqueleto.jpg" alt="Máscara 2" />
+            <h3>gafas esqueleticas</h3>
+            <p>máscara negra del organisador de los juegos.</p>
+            <p>$28.000</p>
+            <button onclick="agregarAlCarrito('gafas esqueleticas', 28000)">Añadir</button>
+          </div>
+
+          
+        <div class="producto">
+            <img src="https://www.disfracesantifaz.com/10336-home_default/gafas-de-demonia.jpg" alt="Máscara 2" />
+            <h3>gafas con marco en llamas </h3>
+            <p>Peluda máscara de lobo gris.</p>
+            <p>$28.000</p>
+            <button onclick="agregarAlCarrito('gafas con marco en llamas', 28000)">Añadir</button>
+          </div>
+
+          
+        <div class="producto">
+            <img src="https://http2.mlstatic.com/D_Q_NP_697897-CBT81164104142_122024-O.webp" alt="Máscara 2" />
+            <h3> gafas de color amarillo</h3>
+            <p>Peluda máscara de lobo gris.</p>
+            <p>$28.000</p>
+            <button onclick="agregarAlCarrito('gafas de color amarillo', 28000)">Añadir</button>
+          </div>
+
+          
+        <div class="producto">
+            <img src="https://i5.walmartimages.com/asr/e8b2a343-27de-4415-8f80-ea9183a4ba90.ac4f5fb7e9ed95fccf441509db49d1d9.jpeg?odnHeight=612&odnWidth=612&odnBg=FFFFFF" alt="Máscara 2" />
+            <h3>gafas con ojos saltones</h3>
+            <p>Peluda máscara de lobo gris.</p>
+            <p>$28.000</p>
+            <button onclick="agregarAlCarrito('gafas con ojos saltones', 28000)">Añadir</button>
+          </div>
+
+          
+        <div class="producto">
+            <img src="https://m.media-amazon.com/images/I/71SZ1gwn6aS._AC_UY1000_.jpg" alt="Máscara 2" />
+            <h3>gafacas con luz led </h3>
+            <p>Peluda máscara de lobo gris.</p>
+            <p>$28.000</p>
+            <button onclick="agregarAlCarrito('gafacas con luz led', 28000)">Añadir</button>
+          </div>
+
+          
+        <div class="producto">
+            <img src="https://i.pinimg.com/736x/1d/91/dc/1d91dcd90fd6c6815c0d3529d24bbd4e.jpg" alt="Máscara 2" />
+            <h3>gafas para la guaracha </h3>
+            <p>Peluda máscara de lobo gris.</p>
+            <p>$28.000</p>
+            <button onclick="agregarAlCarrito('gafas para la guaracha', 28000)">Añadir</button>
+          </div>
+      </div>
+    </div>
+</section>
+
+<!--   /*carrito*/ -->
+
+  <section id="carrito" class="carrito">
+    <h2>Carrito de Compras</h2>
+    <ul id="lista-carrito"></ul>
+    <p>Total: <span id="total">$0</span></p>
+    <button onclick="mostrarFormulario()">Realizar compra</button>
+  </section>
+
+  <section id="formulario-compra" class="formulario-compra oculto">
+    <h2>Datos de Envío</h2>
+    <form>
+      <label>Nombre completo:</label><br/>
+      <input type="text" required /><br/>
+      <label>Dirección:</label><br/>
+      <input type="text" required /><br/>
+      <label>Intervalo de entrega:</label><br/>
+      <select>
+        <option>1-2 días</option>
+        <option>2-3 días</option>
+        <option>3-4</option>
+      </select><br />
+      <button type="submit">Confirmar pedido</button>
+    </form>
+  </section>
+  <div id="pie" class="pie">
+    <h1>CORREO:constumItems@gmail.com</h1>
+    <h1>NUMERO DE CONTACTO:3211538293</h1>
+    <h1>REDES SOCIALES</h1>
+  </div>
+
+  <script src="script.js"></script>
+
+
+</body>
+</html>

@@ -1,0 +1,123 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #ffffff;
+  }
+  header {
+    background-color: #000000;
+    color: #fff;
+    padding: 20px;
+   
+  }
+  .logos{
+    width:240px;
+    height: 240px;
+    left:240px;
+
+  }
+  .Nombre{
+    text-align: center;
+  }
+
+  nav a {
+    margin: 0 10px;
+    color: #ffffff;
+    text-decoration: none;
+  }
+  .alerta {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #13ce0d;
+    color: rgb(248, 242, 242);
+    text-align: center;
+    padding: 10px 0;
+    z-index: 1000;
+  }
+  .categorias, .productos-seccion, .carrito, .formulario-compra {
+    padding: 20px;
+  }
+  .grid-categorias {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+  }
+  .grid-categorias button {
+    flex: 1 1 auto;
+    padding: 15px;
+    background-color: #000000;
+    color: rgb(255, 255, 255);
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  .productos {
+    display: flex;
+    gap: 15px;
+    flex-wrap: wrap;
+  }
+  .producto {
+    background: rgb(255, 255, 255);
+    padding: 10px;
+    border-radius: 5px;
+    width: 200px;
+    box-shadow: 5px 8px 10px rgba(4, 8, 236, 0.411);
+    text-align: center;
+  }
+  .producto img {
+    width: 200px;
+    height: 200px;
+    border-radius: 20px;
+  }
+  .producto button {
+    margin-top: 5px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    padding: 8px;
+    cursor: pointer;
+    border-radius: 3px;
+  }
+
+  .carrito ul {
+    list-style-type: none;
+    padding-left: 0;
+  }
+  .carrito li {
+    margin-bottom: 10px;
+  }
+  .carrito button {
+    background-color: #dc3545;
+    color: white;
+    border: none;
+    padding: 5px 8px;
+    cursor: pointer;
+    border-radius: 3px;
+  }
+  .formulario-compra input, .formulario-compra select {
+    width: 100%;
+    padding: 10px;
+    margin: 8px 0;
+    box-sizing: border-box;
+  }
+  .formulario-compra button {
+    background-color: #24cc15;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 4px;
+  }
+  .oculto {
+    display: none;
+  }
+  .pie{
+    background-color: #000000;
+    color: #ffffff;
+    padding: 20px;
+    text-align: center;
+    margin: 0;
+  }
